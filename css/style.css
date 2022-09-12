@@ -1,0 +1,95 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+body{
+	font-size: 20px;
+	text-align: center;
+}
+
+h1, h2{
+	font-family: "Larseit", sans-serif;
+	font-weight: 900;
+	color: mediumblue;
+	margin-bottom: 50px;
+}
+h1{
+	margin-top: 20px;
+}
+main, .main_text, .second_text_under, .second_text_under_final, .three_text, .secon_text, .fifth_text, .fifth_text_under, .fifth_text_under_final, .fifth_text_under_final_last, .final{
+	display: inline-block;
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+.main_text{
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+}
+
+.secon_text{
+	font-family: "Lato", sans-serif;
+}
+.mark, .programmer, .jade, .ilon{
+	width: 500px;
+}
+span{
+	font-style: italic;
+	opacity: 50%;
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.three_text, .three_text_under, .fourth_text, .fourth_text_under, .fourth_text_under_final{
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 50px;
+}
+
+.list{
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+}
+
+.list_num>li{
+	margin-bottom: 25px;
+}
+.list_num li::before{
+	content: "•";
+	display: inline-block;
+	width: 25px;
+}
+
+.foot{
+	color: azure;
+	background-color: black;
+	min-height: 70px;
+}
+.foot_autor{
+	color: red;
+}
+.thanks{
+	color: green;
+	display: inline-block;
+	font-size: 30px;
+}
